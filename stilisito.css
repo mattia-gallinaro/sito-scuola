@@ -1,0 +1,70 @@
+#intestazione{
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    background-color: white;
+}
+
+#prima-riga-intestazione{
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #808080;
+}
+
+#seconda-riga-intestazione{
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: black;
+}
+
+#resto-intestazione{
+    color: #808080;
+    font-family:'Assistant', sans-serif;
+}
+
+#dropdown-bottone {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ParteCentrale{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    background-color: white;
+}
+
+.Notizie{
+    text-align: left;
+    background-color: #ffffff;
+    font-family:'Assistant', sans-serif;
+    margin: 10px 10px;
+    width: auto;
+}
+
+#TestoCentroPagina{
+    font-size: 17px;
+    font-family:'Assistant', sans-serif;
+    color: black;
+}
+
+#TestoElenco{
+    font-size: 17px;
+    font-family:'Assistant', sans-serif;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.Container-colonne-esterne{
+    border-radius: 5px;
+    background-color: #ececec;
+    margin: 20px 20px;
+    color:steelblue ;
+}
