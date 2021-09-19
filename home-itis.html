@@ -7,7 +7,8 @@
 
 <head>
   <!--Tag obbligatorio-->
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,7 +24,7 @@
     <div class="row justify-content-xl-center">
       <div class="d-none d-sm-none d-md-none d-lg-none d-xl-block col-xl-3">
         <img src="https://www.iisviolamarchesini.edu.it/j2/images/logo-repubblica-italiana.png"
-          alt="logo-repubblica-italiana" style="width: 225px; float: left;">
+          alt="logo-repubblica-italiana" id="Immagine-Repubblica">
       </div>
       <div class="col-xl-6">
         <h4 id="prima-riga-intestazione">ISTITUTO DI ISTRUZIONE SUPERIORE</h4>
@@ -38,7 +39,7 @@
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-expand-xl navbar-light" style="background-color: aqua; margin: 5px; text-align: center; border-radius: 5px;">
+  <nav class="navbar navbar-expand-xl navbar-light" id="barra">
     <div class="container">
       <!--Home button-->
       <a class="navbar-brand" href="#">Home</a>
@@ -48,7 +49,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="text-align: center; margin: 5px 10px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <!--la Scuola-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -164,226 +165,242 @@
             </ul>
           </li>
           <!--Inglese-->
-          <li class="nav-item" style="text-align: center">
-            <a href="#"><img src="https://www.italianiaround.com/wp-content/uploads/2020/01/Bandiera-Inglese.png" alt="inglese" href="#" style="margin-top: 10px; margin: 5px 5px 0px ; width: 30px"></a>
+          <li class="nav-item">
+            <a href="#"><img src="https://www.italianiaround.com/wp-content/uploads/2020/01/Bandiera-Inglese.png"
+                alt="inglese" id="ImmagineInglese"></a>
           </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit" style="font-size: 15px; margin-left: 3px;">Cerca</button>
+          <button class="btn btn-outline-success" type="submit"
+            style="font-size: 15px; margin-left: 3px;">Cerca</button>
         </form>
       </div>
     </div>
   </nav>
-  <div class="container" id="ParteCentrale">
-    <div class="row justify-content-xl-center">
-      <!--colonna di sinistra-->
-      <div class="col-md-6 order-md-1 col-xl-3 order-xl-0">
-        <!--Plessi-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
-          <h5>Plessi</h5>
-          <a href="#">I.I.S. "Viola-Marchesini"</a><br>
-          <a href="#">ITA "O. Munerati"</a><br>
-          <a href="#">ITG "A.Bernini"</a><br>
-        </div>
-        <!--Indirizzi-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
-          <h5>Indirizzi di studio Settore Tecnico Tecnologico</h5>
-          <ul>
-            <li>
-              <a href="#" style="margin-top: 5px;">Biennio comune</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Chimica, Materiali e Biotecnologie</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Elettronica ed Elettrotecnica </a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Informatica e Telecomunicazioni</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Meccanica, Meccatronica ed Energia</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Sistema Moda</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Istruzione degli Adulti</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Agraria, Agroalimentare e Agroindustria (sede<br>Munerati)</a>
-            </li>
-            <li>
-              <a href="#" style="margin-top: 5px;">Costruzioni,Ambiente e Territorio (sede Bernini)</a>
-            </li>
-          </ul>
-        </div>
-        <!--Indirizzi-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
-          <h5>Indirizzi di studio<br>Settore Professionale</h5>
-          <ul>
-            <li style="margin-top: 5px;">
-              <a href="#">Apparati, impianti e<br>servizi tecnici industriali e<br>civili</a>
-            </li>
-            <li style="margin-top: 5px;">
-              <a href="#">Manutenzione mezzi di<br>trasporto</a>
-            </li>
-          </ul>
-        </div>
-        <!--PON FSE Studenti-->
-        <div class="Container-colonne-esterne">
-          <h5>PON FSE Studenti</h5>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/pon_studenti.png" alt="Pon"
-            style="width: 125px; text-align:center;">
-        </div>
-      </div>
-      <!--Colonna centrale-->
-      <div class="col-md-12 order-md-0 col-xl-6 order-xl-1">
-        <div class="Container-colonne-esterne "style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
-          <h3 style="margin-top: 15px;">Risorse per Didattica Digitale Integrata</h3>
-          <a href="#" style="margin-top: 10px;">Risorse utili per la Didattica Digitale Integrata</a>
-        </div>
-        <div class="Notizie">
-          <h6>Home</h6>
-          <div>
-            <h4 style="color: blue">In Evidenza</h4>
-            <h5 style="color: blue">Elenco alunni classi prime e terze AS 2021-2022</h5>
-            <p id="TestoCentroPagina">Si pubblicano gli elenchi delle studentesse e degli studenti delle <b
-                class="keywords">classi prime e terze di tutti i plessi</b> per l'A.S. 2021-2022<br>
-              <a href="#">Elenchi classi prime</a><br>
-              <a href="#">Elenchi classi terze</a>
-            </p>
-            <h5 style="color: blue">Corso serale Istruzione degli Adulti A.S. 2021-2022</h5>
-            <p id="TestoCentroPagina">Si comunica che presso il nostro Istituto <b class="keywords">è possibile
-                iscriversi ai corsi per adulti IdA di secondo livello</b> finalizzati al conseguimento del diploma di
-              istruzione tecnica per l’A.S. 2021/2022, inoltrando la domanda di iscrizione on-line<br>
-              Ci si può iscrivere al:</p>
+  <div class="container-fluid" style="background-color: #ececec;">
+    <div class="container" id="ParteCentrale">
+      <div class="row justify-content-xl-center">
+        <!--colonna di sinistra-->
+        <div class="col-12 order-1 col-md-6 order-md-1 col-xl-3 order-xl-0">
+          <!--Plessi-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Sinistra">
+            <h5>Plessi</h5>
+            <a href="#">I.I.S. "Viola-Marchesini"</a><br>
+            <a href="#">ITA "O. Munerati"</a><br>
+            <a href="#">ITG "A.Bernini"</a><br>
+          </div>
+          <!--Indirizzi-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Sinistra">
+            <h5>Indirizzi di studio Settore Tecnico Tecnologico</h5>
             <ul>
-              <li id="TestoElenco"><b class="keywords">primo periodo didattico</b>: primo e secondo anno (Biennio
-                comune)</li>
-              <li id="TestoElenco"><b class="keywords">secondo periodo didattico</b>: terzo e quarto anno (Meccanica,
-                Informatica e Sistema Moda)</li>
-              <li id="TestoElenco"><b class="keywords">terzo periodo didattico</b>: quinto anno (Meccanica, Informatica
-                e Sistema Moda)</li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Biennio comune</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Chimica, Materiali e Biotecnologie</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Elettronica ed Elettrotecnica </a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Informatica e Telecomunicazioni</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Meccanica, Meccatronica ed Energia</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Sistema Moda</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Istruzione degli Adulti</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Agraria, Agroalimentare e Agroindustria (sede<br>Munerati)</a>
+              </li>
+              <li>
+                <a href="#" style="margin-top: 5px;">Costruzioni,Ambiente e Territorio (sede Bernini)</a>
+              </li>
             </ul>
-            <p id="TestoCentroPagina"><a href="#">Per maggiori informazioni scarica l'allegato</a><br><a href="#">Modulo
-                di iscrizione online</a><br><a href="#">Scarica la locandina 1</a><br><a href="#">Scarica la locandina
-                2</a></p>
-            <h5 style="color: blue">Collegio dei Docenti</h5>
-            <p id="TestoCentroPagina">Il Collegio dei Docenti dell’IIS “Viola-Marchesini” è convocato in modalità <b
-                class="keywords">a distanza mercoledì 8 settembre 2021 alle ore 9.30</b></p>
-            <h5 style="color: blue">Calendario esami integrativi A.S. 2021-2022</h5>
-            <p id="TestoCentroPagina">Si pubblica il calendario degli esami integrativi per passaggi da altri
-              istituti.<br><a href="#">Scarica l'allegato</a></p>
-            <h5 style="color: blue">Elenchi classi A.S 2021-2022</h5>
-            <p id="TestoCentroPagina">Gli elenchi delle classi per l'A.S. 2021-2022 <b class="keywords">saranno
-                pubblicati a partire da settembre.</b></p>
-            <h5 style="color: blue">Differimento data apertura buste dell’avviso pubblico aperto/invito rivolto alle
-              agenzie di assicurazione</h5>
-            <p id="TestoCentroPagina"><b class="keywords">Differimento data apertura buste</b> dell’avviso pubblico
-              aperto/invito, alla presentazione di offerte rivolto alle agenzie di assicurazione per presentazione delle
-              offerte per l’affidamento del servizio di <b class="keywords">assicurazione in favore degli alunni e del
-                personale scolastico.</b><br><a href="#">Vedi comunicazione</a></p>
-            <h5 style="color: blue">Avviso pubblico aperto/invito rivolto alle agenzie di assicurazione</h5>
-            <p id="TestoCentroPagina">Avviso pubblico aperto/invito, alla presentazione di offerte rivolto alle agenzie
-              di assicurazione per <b class="keywords">presentazione delle offerte per l’affidamento del servizio di
-                assicurazione in favore degli alunni e del personale scolastico per gli anni 2021/2022, 2022/2023,
-                2023/2024, con decorrenza dalle 00.00 del 01/09/2021 alle 24.00 del 31/08/2024.</b><br><a
-                href="#">Scarica l'avviso e gli allegati</a></p>
-            <h5 style="color: blue">Perfezionamento Iscrizioni Classi Prime A.S. 2021-2022</h5>
-            <p id="TestoCentroPagina">Sono pubblicate le indicazioni <b class="keywords">per perfezionare l'iscrizione
-                alle classi prime per l'A.S. 2021-2022.<br>
-                Nota:</b> a causa del cambio dell'ISTITUTO CASSIERE i pagamenti del contributo volontario con PAGO IN
-              RETE per le CLASSI PRIME A.S. 2021-2022 potranno essere effettuati dall'11 Luglio.</p>
-            <p id="TestoCentroPagina"><a href="#">Scarica la comunicazione</a><br><a href="#">Scarica il manuale utenti
-                pagamenti scolastici Pago in Rete</a></p>
-            <h5 style="color: blue">Libri di testo A.S. 2021-2022</h5>
-            <p id="TestoCentroPagina">Sono pubblicati i <b class="keywords">libri di testo per l'A.S. 2021-2022</b> per
-              tutti i quattro plessi.<br><a href="#">Scarica la lista dei libri di testo 2021-2022 </a></p>
-            <h5 style="color: blue">Prove di recupero per gli studenti con sospensione del giudizio</h5>
-            <p id="TestoCentroPagina">Si comunicano le giornate in cui si svolgeranno le <b class="keywords">Prove di
-                recupero per gli studenti con sospensione del giudizio:</b></p>
+          </div>
+          <!--Indirizzi-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Sinistra">
+            <h5>Indirizzi di studio<br>Settore Professionale</h5>
             <ul>
-              <li id="TestoElenco"><b class="keywords">25 agosto</b>: Prove di Matematica, Fisica, Scienze della Terra e
-                Biologia, Tecnologie Informatiche (classi 1^ IT), Chimica Biennio, TTRG (Biennio);</li>
-              <li id="TestoElenco"><b class="keywords">26 agosto</b>: Prove di Inglese, Diritto, Geografia, Genio
-                rurale, Produzioni Vegetali, Biotecnologie agrarie, Trasformazione dei Prodotti, Economia Estimo
-                Marketing e Legislazione, Tecnologie Elettrico Elettroniche (IPIA);</li>
-              <li id="TestoElenco"><b class="keywords">27 agosto</b>: Prove di Italiano, Storia, Chimica Organica,
-                Chimica Analitica, Tecnologie Chimiche Industriali, Topografia, Progettazione Costruzione Impianti,
-                Tecnologie Progettazioni Sistemi Informatici, Telecomunicazioni, Elettrotecnica ed Elettronica,
-                Meccanica Macchine ed energia, Sistemi e Automazione, Tecnologie Meccaniche, Disegno Progettazione
-                Organizzazione industriale, Tecnologie e Progettazioni di sistemi elettrici ed elettronici.</li>
+              <li style="margin-top: 5px;">
+                <a href="#">Apparati, impianti e<br>servizi tecnici industriali e<br>civili</a>
+              </li>
+              <li style="margin-top: 5px;">
+                <a href="#">Manutenzione mezzi di<br>trasporto</a>
+              </li>
             </ul>
-            <p id="TestoCentroPagina">Gli orari specifici delle Prove verranno comunicati i primi di luglio.<br>
-              Si informa altresì che il <b class="keywords">23 e 24 agosto 2021</b> verrà effettuata una ripresa dei
-              Corsi di recupero, in vista delle prove.</p>
+          </div>
+          <!--PON FSE Studenti-->
+          <div class="Container-colonne-esterne">
+            <h5>PON FSE Studenti</h5>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/pon_studenti.png" alt="Pon"
+              id="immagini-blocchi-esterni"></a>
+          </div>
+        </div>
+        <!--Colonna centrale-->
+        <div class="col-12 order-0 col-md-12 order-md-0 col-xl-6 order-xl-1">
+          <div class="Container-colonne-esterne "
+            style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
+            <h3 style="margin-top: 15px;">Risorse per Didattica Digitale Integrata</h3>
+            <a href="#" style="margin-top: 10px;">Risorse utili per la Didattica Digitale Integrata</a>
+          </div>
+          <div class="Notizie">
+            <h6>Home</h6>
+            <div>
+              <h4 style="color: blue">In Evidenza</h4>
+              <h5 style="color: blue">Elenco alunni classi prime e terze AS 2021-2022</h5>
+              <p id="TestoCentroPagina">Si pubblicano gli elenchi delle studentesse e degli studenti delle <b
+                  class="keywords">classi prime e terze di tutti i plessi</b> per l'A.S. 2021-2022<br>
+                <a href="#">Elenchi classi prime</a><br>
+                <a href="#">Elenchi classi terze</a>
+              </p>
+              <h5 style="color: blue">Corso serale Istruzione degli Adulti A.S. 2021-2022</h5>
+              <p id="TestoCentroPagina">Si comunica che presso il nostro Istituto <b class="keywords">è possibile
+                  iscriversi ai corsi per adulti IdA di secondo livello</b> finalizzati al conseguimento del diploma di
+                istruzione tecnica per l’A.S. 2021/2022, inoltrando la domanda di iscrizione on-line<br>
+                Ci si può iscrivere al:</p>
+              <ul>
+                <li id="TestoElenco"><b class="keywords">primo periodo didattico</b>: primo e secondo anno (Biennio
+                  comune)</li>
+                <li id="TestoElenco"><b class="keywords">secondo periodo didattico</b>: terzo e quarto anno (Meccanica,
+                  Informatica e Sistema Moda)</li>
+                <li id="TestoElenco"><b class="keywords">terzo periodo didattico</b>: quinto anno (Meccanica,
+                  Informatica
+                  e Sistema Moda)</li>
+              </ul>
+              <p id="TestoCentroPagina"><a href="#">Per maggiori informazioni scarica l'allegato</a><br><a
+                  href="#">Modulo
+                  di iscrizione online</a><br><a href="#">Scarica la locandina 1</a><br><a href="#">Scarica la locandina
+                  2</a></p>
+              <h5 style="color: blue">Collegio dei Docenti</h5>
+              <p id="TestoCentroPagina">Il Collegio dei Docenti dell’IIS “Viola-Marchesini” è convocato in modalità <b
+                  class="keywords">a distanza mercoledì 8 settembre 2021 alle ore 9.30</b></p>
+              <h5 style="color: blue">Calendario esami integrativi A.S. 2021-2022</h5>
+              <p id="TestoCentroPagina">Si pubblica il calendario degli esami integrativi per passaggi da altri
+                istituti.<br><a href="#">Scarica l'allegato</a></p>
+              <h5 style="color: blue">Elenchi classi A.S 2021-2022</h5>
+              <p id="TestoCentroPagina">Gli elenchi delle classi per l'A.S. 2021-2022 <b class="keywords">saranno
+                  pubblicati a partire da settembre.</b></p>
+              <h5 style="color: blue">Differimento data apertura buste dell’avviso pubblico aperto/invito rivolto alle
+                agenzie di assicurazione</h5>
+              <p id="TestoCentroPagina"><b class="keywords">Differimento data apertura buste</b> dell’avviso pubblico
+                aperto/invito, alla presentazione di offerte rivolto alle agenzie di assicurazione per presentazione
+                delle
+                offerte per l’affidamento del servizio di <b class="keywords">assicurazione in favore degli alunni e del
+                  personale scolastico.</b><br><a href="#">Vedi comunicazione</a></p>
+              <h5 style="color: blue">Avviso pubblico aperto/invito rivolto alle agenzie di assicurazione</h5>
+              <p id="TestoCentroPagina">Avviso pubblico aperto/invito, alla presentazione di offerte rivolto alle
+                agenzie
+                di assicurazione per <b class="keywords">presentazione delle offerte per l’affidamento del servizio di
+                  assicurazione in favore degli alunni e del personale scolastico per gli anni 2021/2022, 2022/2023,
+                  2023/2024, con decorrenza dalle 00.00 del 01/09/2021 alle 24.00 del 31/08/2024.</b><br><a
+                  href="#">Scarica l'avviso e gli allegati</a></p>
+              <h5 style="color: blue">Perfezionamento Iscrizioni Classi Prime A.S. 2021-2022</h5>
+              <p id="TestoCentroPagina">Sono pubblicate le indicazioni <b class="keywords">per perfezionare l'iscrizione
+                  alle classi prime per l'A.S. 2021-2022.<br>
+                  Nota:</b> a causa del cambio dell'ISTITUTO CASSIERE i pagamenti del contributo volontario con PAGO IN
+                RETE per le CLASSI PRIME A.S. 2021-2022 potranno essere effettuati dall'11 Luglio.</p>
+              <p id="TestoCentroPagina"><a href="#">Scarica la comunicazione</a><br><a href="#">Scarica il manuale
+                  utenti
+                  pagamenti scolastici Pago in Rete</a></p>
+              <h5 style="color: blue">Libri di testo A.S. 2021-2022</h5>
+              <p id="TestoCentroPagina">Sono pubblicati i <b class="keywords">libri di testo per l'A.S. 2021-2022</b>
+                per
+                tutti i quattro plessi.<br><a href="#">Scarica la lista dei libri di testo 2021-2022 </a></p>
+              <h5 style="color: blue">Prove di recupero per gli studenti con sospensione del giudizio</h5>
+              <p id="TestoCentroPagina">Si comunicano le giornate in cui si svolgeranno le <b class="keywords">Prove di
+                  recupero per gli studenti con sospensione del giudizio:</b></p>
+              <ul>
+                <li id="TestoElenco"><b class="keywords">25 agosto</b>: Prove di Matematica, Fisica, Scienze della Terra
+                  e
+                  Biologia, Tecnologie Informatiche (classi 1^ IT), Chimica Biennio, TTRG (Biennio);</li>
+                <li id="TestoElenco"><b class="keywords">26 agosto</b>: Prove di Inglese, Diritto, Geografia, Genio
+                  rurale, Produzioni Vegetali, Biotecnologie agrarie, Trasformazione dei Prodotti, Economia Estimo
+                  Marketing e Legislazione, Tecnologie Elettrico Elettroniche (IPIA);</li>
+                <li id="TestoElenco"><b class="keywords">27 agosto</b>: Prove di Italiano, Storia, Chimica Organica,
+                  Chimica Analitica, Tecnologie Chimiche Industriali, Topografia, Progettazione Costruzione Impianti,
+                  Tecnologie Progettazioni Sistemi Informatici, Telecomunicazioni, Elettrotecnica ed Elettronica,
+                  Meccanica Macchine ed energia, Sistemi e Automazione, Tecnologie Meccaniche, Disegno Progettazione
+                  Organizzazione industriale, Tecnologie e Progettazioni di sistemi elettrici ed elettronici.</li>
+              </ul>
+              <p id="TestoCentroPagina">Gli orari specifici delle Prove verranno comunicati i primi di luglio.<br>
+                Si informa altresì che il <b class="keywords">23 e 24 agosto 2021</b> verrà effettuata una ripresa dei
+                Corsi di recupero, in vista delle prove.</p>
+            </div>
+          </div>
+        </div>
+        <!--Colonna di destra-->
+        <div class="col-12 order-2 col-md-6 order-md-2 col-xl-3 order-xl-2">
+          <!--PON 2014-2020-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Destra">
+            <h5>PON 2014-2020</h5>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/logo_nuovo_pon.png"
+                alt="PON 2014-2020" id="immagini-blocchi-esterni"></a>
+          </div>
+          <!--SICUREZZA E COVID-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Destra">
+            <a href="#">SICUREZZA E COVID</a><br>
+            <img src="https://www.iisviolamarchesini.edu.it/j2/images/facial_mask.png" alt="CorsoSicurezza"
+              id="immagini-blocchi-esterni">
+          </div>
+          <!--Tour Virtuale-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Destra">
+            <h5>Tour Virtuale</h5>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/google_street.png" alt="TourVirtuale"
+                style="width: 135px; text-align:center;"></a>
+            <p style="color: black;">Fai un tour virtuale dell'IIS "Viola-Marchesini"</p>
+          </div>
+          <!--La Scuola Online-->
+          <div class="Container-colonne-esterne" id="Blocchi-Col-Destra">
+            <h5>La Scuola Online</h5>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/classeviva.jpg"
+                alt="RegistroElettronico" id="immagini-blocchi-esterni"></a>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/albo_online.png" alt="Albo"
+                id="immagini-blocchi-esterni"></a><br>
+            <a href="#">Atti pubblicati fino all'11/07/2016</a><br>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/trasparenza.png"
+                alt="AmministrazioneTrasparente" id="immagini-blocchi-esterni"></a>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/comunicati.png" alt="Comunicati"
+                id="immagini-blocchi-esterni"></a>
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/set.png" alt="ScuolaETerritorio"
+                id="immagini-blocchi-esterni"></a><br>
+            <a href="#">Candida la tua azienda per ASL</a><br>
+            <a href="#">Report azienda attività ASL</a>
+          </div>
+          <!--Moodle-->
+          <div class="Container-colonne-esterne">
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/moodle_2.png" alt="Moodle"
+              id="immagini-blocchi-esterni"></a>
+          </div>
+          <!--Bionet-->
+          <div class="Container-colonne-esterne">
+            <a href="#"><img src="https://www.iisviolamarchesini.edu.it/j2/images/bionet.png" alt="Bionet"
+              id="immagini-blocchi-esterni" style="padding:5px;"></a>
           </div>
         </div>
       </div>
-      <!--Colonna di destra-->
-      <div class="col-md-6 order-md-2 col-xl-3 order-xl-2">
-        <!--PON 2014-2020-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: left;">
-          <h5>PON 2014-2020</h5>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/logo_nuovo_pon.png" alt="PON 2014-2020"
-            style="width: 135px; text-align:center;">
-        </div>
-        <!--SICUREZZA E COVID-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif; text-align: center;">
-          <a href="#">SICUREZZA E COVID</a><br>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/facial_mask.png" alt="CorsoSicurezza"
-            style="width: 135px; text-align:center;">
-        </div>
-        <!--Tour Virtuale-->
-        <div class="Container-colonne-esterne" style="font-size: 17px; font-family: 'Rubik', sans-serif;">
-          <h5 style="text-align: center">Tour Virtuale</h5>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/google_street.png" alt="TourVirtuale"
-            style="width: 135px; text-align:center;">
-          <p style="color: black;">Fai un tour virtuale dell'IIS "Viola-Marchesini"</p>
-        </div>
-        <!--La Scuola Online-->
-        <div class="Container-colonne-esterne" style="font-size: 15px; font-family: 'Rubik', sans-serif;" >
-          <h5>La Scuola Online</h5>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/classeviva.jpg" alt="RegistroElettronico"
-            style="width: 135px; text-align:center; margin-top: 10px;">
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/albo_online.png" alt="Albo"
-            style="width: 135px; text-align:center; margin-top: 10px;"><br>
-          <a href="#">Atti pubblicati fino all'11/07/2016</a><br>
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/trasparenza.png" alt="AmministrazioneTrasparente"
-            style="width: 135px; text-align:center;  margin-top: 10px;">
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/comunicati.png" alt="Comunicati"
-            style="width: 135px; text-align:center; margin-top: 10px;">
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/set.png" alt="ScuolaETerritorio"
-            style="width: 135px; text-align:center;  margin-top: 10px;"><br>
-          <a href="#">Candida la tua azienda per ASL</a><br>
-          <a href="#">Report azienda attività ASL</a>
-        </div>
-        <!--Moodle-->
-        <div class="Container-colonne-esterne">
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/moodle_2.png" alt="Moodle"
-            style="width: 135px; text-align: center;">
-        </div>
-        <!--Bionet-->
-        <div class="Container-colonne-esterne">
-          <img src="https://www.iisviolamarchesini.edu.it/j2/images/bionet.png" alt="Bionet"
-            style="width: 135px; text-align: center;">
-        </div>
+      <!--Privacy-->
+      <div style="text-align: center;">
+        <a href="#"><button type="button"
+            style="background-color: rgb(255, 255, 255); font-size: 12px; border-radius: 5px;"><b
+              class="keywords">Privacy Police</b></button></a>
+        <a href="#"><button type="button"
+            style="background-color: rgb(255, 255, 255); font-size: 12px; border-radius: 5px;"><b
+              class="keywords">Cookie Police</b></button></a>
       </div>
-    </div>
-    <!--Privacy-->
-    <div style="text-align: center;">
-      <a href="#"><button type="button" style="background-color: rgb(255, 255, 255); font-size: 12px; border-radius: 5px;" ><b class="keywords">Privacy Police</b></button></a>
-      <a href="#"><button type="button" style="background-color: rgb(255, 255, 255); font-size: 12px; border-radius: 5px;" ><b class="keywords">Cookie Police</b></button></a>
-    </div>
-    <!--Piè di pagina-->
-    <div style="margin-top: 20px; text-align: center; color: gray">
-      <h6>IIS VIOLA-MARCHESINI Via A. De Gasperi, 21 Rovigo - Centralino Tel. 0425/410699 Fax 0425/35277<br>
-        Email: <a href="#">rois012001@istruzione.</a> Posta Elettronica Certificata <a
-          href="#">rois012001@pec.istruzione.it</a><br>
-        <a href="#">Dichiarazione di accessibilità</a>
-      </h6>
+      <!--Piè di pagina-->
+      <div style="margin-top: 20px; text-align: center; color: gray">
+        <h6>IIS VIOLA-MARCHESINI Via A. De Gasperi, 21 Rovigo - Centralino Tel. 0425/410699 Fax 0425/35277<br>
+          Email: <a href="#">rois012001@istruzione.</a> Posta Elettronica Certificata <a
+            href="#">rois012001@pec.istruzione.it</a><br>
+          <a href="#">Dichiarazione di accessibilità</a>
+        </h6>
+      </div>
     </div>
   </div>
 

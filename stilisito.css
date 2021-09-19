@@ -1,3 +1,27 @@
+@media (max-width: 767.98px){
+    #dropdown-bottone {
+        background-color: navy;
+        color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+@media (min-width: 768px){
+    #dropdown-bottone {
+        background-color: navy;
+        color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+#Immagine-Repubblica{ 
+    float: left;
+    margin-top: 10px;
+}
 #intestazione{
     border-radius: 5px;
     text-align: center;
@@ -6,32 +30,29 @@
 }
 
 #prima-riga-intestazione{
+    font-size: 20px;
     letter-spacing: 2px;
     line-height: 20px;
+    font-weight: 500;
     color: #808080;
 }
 
 #seconda-riga-intestazione{
+    font-size: 28px;
     letter-spacing: 1px;
     line-height: 28px;
     color: black;
 }
 
 #resto-intestazione{
+    font-size: 12px/18px;
     color: #808080;
-    font-family:'Assistant', sans-serif;
+    font-family: 'Rubik', sans-serif; 
 }
-
-#dropdown-bottone {
-    background-color: navy;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+#ImmagineInglese{
+    margin: 15px 5px 0px; 
+    width: 30px;
 }
-
 #ParteCentrale{
     width: auto;
     height: auto;
@@ -39,6 +60,12 @@
     text-align: center;
     padding: 4px;
     background-color: white;
+}
+
+#Blocchi-Col-Sinistra{
+    font-size: 15px; 
+    font-family: 'Rubik', sans-serif; 
+    text-align: left;
 }
 
 .Notizie{
@@ -50,13 +77,13 @@
 }
 
 #TestoCentroPagina{
-    font-size: 17px;
+    font-size: 15px;
     font-family:'Assistant', sans-serif;
     color: black;
 }
 
 #TestoElenco{
-    font-size: 17px;
+    font-size: 15px;
     font-family:'Assistant', sans-serif;
     color: black;
     margin-bottom: 3px;
@@ -65,6 +92,20 @@
 .Container-colonne-esterne{
     border-radius: 5px;
     background-color: #ececec;
-    margin: 20px 20px;
+    margin: 10px 20px;
     color:steelblue ;
+}
+#barra{
+    background-color: aqua; 
+    margin: 5px 0px; 
+    border-radius: 5px;
+}
+#immagini-blocchi-esterni{
+    width: 75%; 
+    text-align: center;
+}
+#Blocchi-Col-Destra{
+    font-size: 15px; 
+    font-family: 'Rubik', sans-serif; 
+    text-align: center;
 }
