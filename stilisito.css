@@ -18,9 +18,20 @@
         font-family: 'Open Sans', sans-serif;
     }
 }
+#TestoIntestazioneSmall{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
 #Immagine-Repubblica{ 
     float: left;
     margin-top: 10px;
+}
+#background-intestazione{
+    background: rgb(24,12,121);
+    background: linear-gradient(180deg, rgba(24,12,121,1) 24%, rgba(25,19,154,1) 74%, rgba(8,210,233,1) 96%);
 }
 #intestazione{
     border-radius: 5px;
@@ -45,7 +56,7 @@
 }
 
 #resto-intestazione{
-    font-size: 12px/18px;
+    font-size: 18px;
     color: #808080;
     font-family: 'Rubik', sans-serif; 
 }
@@ -100,9 +111,8 @@
     color:steelblue ;
 }
 #barra{
-    background-color: aqua; 
-    margin: 5px 0px; 
-    border-radius: 5px;
+    background-color:  rgba(8,210,233,1);
+    color: black;
 }
 #immagini-blocchi-esterni{
     width: 75%; 
