@@ -48,9 +48,23 @@
     float: left;
     margin-top: 10px;
 }
+#ImmagineCertiQuality{
+    width: 150px; 
+    float: right;
+}
 #background-intestazione{
     background: rgb(24,12,121);
     background: linear-gradient(180deg, rgba(24,12,121,1) 24%, rgba(25,19,154,1) 74%, rgba(8,210,233,1) 96%);
+}
+#Cerca{
+    font-size: 15px; 
+    margin-left: 3px;
+}
+#Spaziatura{
+    margin-top: 5px;
+}
+#spazio{
+    margin-top: 12px;
 }
 #intestazione{
     border-radius: 5px;
@@ -141,4 +155,17 @@
     font-size: 15px; 
     font-family: 'Rubik', sans-serif; 
     text-align: center;
+}
+#bottoni-finali{
+    background-color: rgb(255, 255, 255); 
+    font-size: 12px; 
+    border-radius: 5px;
+}
+#colorblue{
+    color: blue;
+}
+#pie-di-pagina{
+    margin-top: 20px; 
+    text-align: center; 
+    color: gray;
 }
